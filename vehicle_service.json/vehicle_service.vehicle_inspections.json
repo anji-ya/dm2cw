@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "6a7eb3fd5b4f141bf5ea0295"
+  },
+  "vehicleId": 1,
+  "registrationNo": "KJ-4521",
+  "inspectionDate": "2026-08-14",
+  "mileage": 48500,
+  "inspection": {
+    "engine": {
+      "condition": "GOOD",
+      "remarks": "No abnormal engine noise detected"
+    },
+    "brakes": {
+      "condition": "GOOD",
+      "remarks": "Brake pads within acceptable range"
+    },
+    "tyres": {
+      "condition": "GOOD",
+      "remarks": "Tyre pressure normal"
+    },
+    "battery": {
+      "condition": "GOOD",
+      "remarks": "Battery operating normally"
+    }
+  },
+  "overallCondition": "GOOD",
+  "inspector": "Nuwan Perera"
+},
+{
+  "_id": {
+    "$oid": "6a7eb4155b4f141bf5ea0297"
+  },
+  "vehicleId": 2,
+  "registrationNo": "CA-7834",
+  "inspectionDate": "2026-08-14",
+  "mileage": 62000,
+  "inspection": {
+    "engine": {
+      "condition": "FAIR",
+      "remarks": "Engine warning history requires diagnostic scan"
+    },
+    "brakes": {
+      "condition": "GOOD",
+      "remarks": "Brake system operating normally"
+    },
+    "tyres": {
+      "condition": "FAIR",
+      "remarks": "Front tyres should be monitored"
+    },
+    "battery": {
+      "condition": "GOOD",
+      "remarks": "Battery condition acceptable"
+    }
+  },
+  "overallCondition": "FAIR",
+  "inspector": "Kasun Silva"
+}]

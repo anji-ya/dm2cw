@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "6a8623215b4f141bf5ea02d7"
+  },
+  "vehicle_id": 1,
+  "registration_no": "KJ-4521",
+  "customer_id": 1,
+  "complaint_type": "General Service Feedback",
+  "date": "2026-08-14",
+  "status": "RESOLVED",
+  "rating": 5,
+  "description": "Customer was satisfied with the service and reported that the vehicle is in very good condition."
+}]

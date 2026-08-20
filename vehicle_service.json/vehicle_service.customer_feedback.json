@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "6a7eb46f5b4f141bf5ea02a1"
+  },
+  "customerId": 1,
+  "vehicleId": 1,
+  "registrationNo": "KJ-4521",
+  "feedbackType": "COMPLAINT",
+  "subject": "Service delay",
+  "message": "The vehicle service took longer than the estimated time.",
+  "rating": 3,
+  "status": "OPEN",
+  "createdAt": "2026-08-14T11:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "6a7eb4815b4f141bf5ea02a3"
+  },
+  "customerId": 4,
+  "vehicleId": 2,
+  "registrationNo": "CA-7834",
+  "feedbackType": "FEEDBACK",
+  "subject": "Good service",
+  "message": "The technician explained the diagnostic results clearly.",
+  "rating": 5,
+  "status": "RESOLVED",
+  "createdAt": "2026-08-14T11:20:00Z"
+}]

@@ -1,0 +1,66 @@
+[{
+  "_id": "ANJIs-1786683276700",
+  "hostname": "ANJIs",
+  "startTime": {
+    "$date": "2026-08-14T04:54:36.000Z"
+  },
+  "startTimeLocal": "Fri Aug 14 10:24:36.700",
+  "cmdLine": {
+    "config": "C:\\Program Files\\MongoDB\\Server\\8.3\\bin\\mongod.cfg",
+    "net": {
+      "bindIp": "127.0.0.1",
+      "port": 27017
+    },
+    "service": true,
+    "storage": {
+      "dbPath": "C:\\Program Files\\MongoDB\\Server\\8.3\\data"
+    },
+    "systemLog": {
+      "destination": "file",
+      "logAppend": true,
+      "path": "C:\\Program Files\\MongoDB\\Server\\8.3\\log\\mongod.log"
+    }
+  },
+  "pid": {
+    "$numberLong": "20868"
+  },
+  "buildinfo": {
+    "version": "8.3.8",
+    "versionArray": [
+      8,
+      3,
+      8,
+      0
+    ],
+    "gitVersion": "35e8c8a57f78157ed9fac1a9e90ee6c1818adab6",
+    "targetMinOS": "Windows 7/Windows Server 2008 R2",
+    "modules": [],
+    "allocator": "tcmalloc-gperf",
+    "javascriptEngine": "mozjs",
+    "sysinfo": "deprecated",
+    "openssl": {
+      "running": "Windows SChannel"
+    },
+    "buildEnvironment": {
+      "distmod": "windows",
+      "distarch": "amd64",
+      "cc": "C:/Program Files/Microsoft Visual Studio/2022.14/Professional/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/cl.exe: version unknown",
+      "ccflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /D_UNICODE /DUNICODE /D_CONSOLE /D_ENABLE_EXTENDED_ALIGNED_STORAGE /D_SCL_SECURE_NO_WARNINGS /wd4068 /wd4244 /wd4267 /wd4290 /wd4355 /wd4373 /wd4800 /wd4251 /wd4146 /we4013 /we4099 /we4930 /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /wd5286 /Gy /Gw /Zc:inline /DBOOST_ALL_NO_LIB /W3 /MD /Z7 /O2 /Oy- -Iexternal/windows_sasl/include /DNDEBUG /DBOOST_ENABLE_ASSERT_DEBUG_HANDLER /DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF /DBOOST_LOG_NO_SHORTHAND_NAMES /DBOOST_LOG_WITHOUT_THREAD_ATTR /DBOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS /DBOOST_SYSTEM_NO_DEPRECATED /DBOOST_THREAD_USES_DATETIME /DBOOST_THREAD_VERSION=5 /DBOOST_LOG_WITHOUT_SYSLOG /DABSL_FORCE_ALIGNED_ACCESS /DPCRE2_STATIC /DSAFEINT_USE_INTRINSICS=0 /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include",
+      "cxx": "None: version unknown",
+      "cxxflags": "/nologo /DNOMINMAX /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /bigobj /Zm500 /EHsc /wd4351 /wd4291 /wd4250 /wd4996 /std:c++20 /utf-8 /diagnostics:caret /errorReport:none /permissive- /Zc:__cplusplus /Zc:sizedDealloc /volatile:iso /fp:strict /D_UNICODE /DUNICODE /D_CONSOLE /D_ENABLE_EXTENDED_ALIGNED_STORAGE /D_SCL_SECURE_NO_WARNINGS /wd4068 /wd4244 /wd4267 /wd4290 /wd4355 /wd4373 /wd4800 /wd4251 /wd4146 /we4013 /we4099 /we4930 /showIncludes /O2 /Oy- /DNDEBUG /wd4117 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" /wd5286 /Gy /Gw /Zc:inline /DBOOST_ALL_NO_LIB /W3 /MD /Z7 /O2 /Oy- -Iexternal/windows_sasl/include /DNDEBUG /DBOOST_ENABLE_ASSERT_DEBUG_HANDLER /DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF /DBOOST_LOG_NO_SHORTHAND_NAMES /DBOOST_LOG_WITHOUT_THREAD_ATTR /DBOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS /DBOOST_SYSTEM_NO_DEPRECATED /DBOOST_THREAD_USES_DATETIME /DBOOST_THREAD_VERSION=5 /DBOOST_LOG_WITHOUT_SYSLOG /DABSL_FORCE_ALIGNED_ACCESS /DPCRE2_STATIC /DSAFEINT_USE_INTRINSICS=0 /D_WIN32_WINNT=0x0A00 /DBOOST_USE_WINAPI_VERSION=0x0A00 /DNTDDI_VERSION=0x0A000000 -Isrc -I$(GENDIR)/src -I$(GENDIR)/src/mongo/db/modules/enterprise/src -Isrc/mongo/db/modules/enterprise/src -Isrc/third_party/valgrind/include",
+      "linkflags": "/nologo /SUBSYSTEM:CONSOLE /MACHINE:X64 /NODEFAULTLIB:library /LIBPATH:external/windows_sasl/lib /LARGEADDRESSAWARE bcrypt.lib Dnsapi.lib Crypt32.lib Version.lib Winmm.lib Iphlpapi.lib Pdh.lib kernel32.lib shell32.lib ws2_32.lib DbgHelp.lib Psapi.lib Secur32.lib /OPT:REF /DEBUG /INCREMENTAL:NO",
+      "target_arch": "amd64",
+      "target_os": "windows",
+      "cppdefines": "NDEBUG BOOST_ENABLE_ASSERT_DEBUG_HANDLER BOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF BOOST_LOG_NO_SHORTHAND_NAMES BOOST_LOG_WITHOUT_THREAD_ATTR BOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS BOOST_SYSTEM_NO_DEPRECATED BOOST_THREAD_USES_DATETIME BOOST_THREAD_VERSION=5 BOOST_LOG_WITHOUT_SYSLOG ABSL_FORCE_ALIGNED_ACCESS PCRE2_STATIC SAFEINT_USE_INTRINSICS=0"
+    },
+    "bits": 64,
+    "debug": false,
+    "maxBsonObjectSize": {
+      "$numberLong": "16777216"
+    },
+    "storageEngines": [
+      "devnull",
+      "wiredTiger"
+    ]
+  }
+}]

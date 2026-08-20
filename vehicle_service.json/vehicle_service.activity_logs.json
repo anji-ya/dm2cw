@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "6a7eb42a5b4f141bf5ea029b"
+  },
+  "vehicleId": 1,
+  "registrationNo": "KJ-4521",
+  "activityType": "SERVICE_STARTED",
+  "description": "Vehicle received for scheduled full service",
+  "technician": {
+    "technicianId": "TECH001",
+    "name": "Nuwan Perera"
+  },
+  "timestamp": "2026-08-14T10:15:00Z",
+  "status": "COMPLETED"
+},
+{
+  "_id": {
+    "$oid": "6a7eb4395b4f141bf5ea029d"
+  },
+  "vehicleId": 2,
+  "registrationNo": "CA-7834",
+  "activityType": "DIAGNOSTIC_CHECK",
+  "description": "Engine diagnostic scan performed",
+  "technician": {
+    "technicianId": "TECH002",
+    "name": "Kasun Silva"
+  },
+  "timestamp": "2026-08-14T10:30:00Z",
+  "status": "COMPLETED"
+}]

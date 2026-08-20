@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "6a7eb4935b4f141bf5ea02a7"
+  },
+  "vehicleId": 1,
+  "registrationNo": "KJ-4521",
+  "jobCardNo": "JC-2026-001",
+  "diagnosticDate": "2026-08-14",
+  "technician": {
+    "technicianId": "T001",
+    "name": "Kasun Perera"
+  },
+  "diagnostics": [
+    {
+      "system": "Engine",
+      "status": "NORMAL",
+      "details": "Engine performance is within normal range."
+    },
+    {
+      "system": "Brakes",
+      "status": "WARNING",
+      "details": "Front brake pads require replacement soon."
+    },
+    {
+      "system": "Battery",
+      "status": "NORMAL",
+      "details": "Battery voltage is satisfactory."
+    }
+  ],
+  "overallStatus": "WARNING",
+  "recommendation": "Replace front brake pads during the next service.",
+  "createdAt": "2026-08-14T11:30:00Z"
+},
+{
+  "_id": {
+    "$oid": "6a7eb4a25b4f141bf5ea02a9"
+  },
+  "vehicleId": 2,
+  "registrationNo": "CA-7834",
+  "jobCardNo": "JC-2026-002",
+  "diagnosticDate": "2026-08-14",
+  "technician": {
+    "technicianId": "T002",
+    "name": "Nimal Fernando"
+  },
+  "diagnostics": [
+    {
+      "system": "Engine",
+      "status": "WARNING",
+      "details": "Minor engine vibration detected."
+    },
+    {
+      "system": "Transmission",
+      "status": "NORMAL",
+      "details": "Transmission operation is normal."
+    },
+    {
+      "system": "Battery",
+      "status": "NORMAL",
+      "details": "Battery condition is good."
+    }
+  ],
+  "overallStatus": "WARNING",
+  "recommendation": "Perform detailed engine inspection.",
+  "createdAt": "2026-08-14T11:40:00Z"
+}]

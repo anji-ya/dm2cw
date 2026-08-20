@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "6a7eb3615b4f141bf5ea028f"
+  },
+  "vehicleId": 1,
+  "registrationNo": "KJ-4521",
+  "customerId": 1,
+  "serviceBookingId": 1,
+  "jobCardNo": "JC-2026-001",
+  "serviceDate": "2026-08-18",
+  "serviceType": "Full Service",
+  "technician": {
+    "name": "Nuwan Perera",
+    "employeeCode": "TECH001"
+  },
+  "status": "CONFIRMED",
+  "mileage": 48500,
+  "technicianNotes": [
+    "Engine oil replaced",
+    "Oil filter replaced",
+    "Brake system inspected",
+    "Battery condition checked"
+  ],
+  "partsUsed": [
+    {
+      "partCode": "OIL-001",
+      "partName": "Engine Oil 5W-30",
+      "quantity": 1
+    },
+    {
+      "partCode": "FLT-001",
+      "partName": "Oil Filter",
+      "quantity": 1
+    }
+  ],
+  "serviceHistory": {
+    "previousService": "2026-02-15",
+    "serviceInterval": "6 months",
+    "nextServiceRecommendation": "2027-02-18"
+  },
+  "createdAt": "2026-08-14T10:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "6a7eb3b95b4f141bf5ea0291"
+  },
+  "vehicleId": 2,
+  "registrationNo": "CA-7834",
+  "customerId": 4,
+  "serviceBookingId": 2,
+  "jobCardNo": "JC-2026-002",
+  "serviceDate": "2026-08-19",
+  "serviceType": "Engine Diagnostics",
+  "technician": {
+    "name": "Kasun Silva",
+    "employeeCode": "TECH002"
+  },
+  "status": "BOOKED",
+  "mileage": 62000,
+  "technicianNotes": [
+    "Customer reported intermittent engine warning light",
+    "Diagnostic scan required"
+  ],
+  "partsUsed": [],
+  "serviceHistory": {
+    "previousService": "2026-03-10",
+    "serviceInterval": "6 months",
+    "nextServiceRecommendation": "After diagnostic inspection"
+  },
+  "createdAt": "2026-08-14T10:05:00Z"
+}]
