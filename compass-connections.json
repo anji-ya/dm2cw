@@ -1,0 +1,24 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "e1c5187e-9d2c-496c-ae7f-81819104c674",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1787224178986"
+        }
+      },
+      "favorite": {
+        "name": "Vehicle Service Local MongoDB"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {}
+      }
+    }
+  ]
+}
